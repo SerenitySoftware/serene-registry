@@ -8,7 +8,7 @@ setup (
     author = 'Ryan Vennell',
     author_email = 'ryan.vennell@gmail.com',
     description = 'A simple, non-persistent, key-value registry in memory.',
-    license = 'LICENSE',
+    license = open('LICENSE', 'r').read(),
     classifiers = [
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
