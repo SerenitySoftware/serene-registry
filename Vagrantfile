@@ -30,6 +30,6 @@ Vagrant.configure("2") do |config|
 
     # VirtualBox Provider
     config.vm.provider :virtualbox do |virtualbox, override|
-        virtualbox.customize ["modifyvm", :id, "--name", "cahoots-registry"]
+        virtualbox.customize ["modifyvm", :id, "--name", "serene-registry"]
     end
 end

@@ -1,4 +1,4 @@
-CahootsRegistry
+SereneRegistry
 ===============
 
 A simple, non-persistent, key-value registry in memory.
@@ -6,12 +6,12 @@ A simple, non-persistent, key-value registry in memory.
 Installation
 ------------
 
-`sudo pip install CahootsRegistry`
+`sudo pip install SereneRegistry`
 
 Usage
 -----
 
-from CahootsRegistry import registry
+from SereneRegistry import registry
 
 # statically saves the value '1234' into the key 'foo'
 # You can now import the registry module from another class and access foo there.

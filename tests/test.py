@@ -2,11 +2,11 @@
 
 import os, sys
 sys.path.append(os.path.dirname(os.path.realpath(__file__))[:-6]) # -6 gets rid of "/tests"
-from CahootsRegistry import registry
+from SereneRegistry import registry
 import unittest
 
-class CahootsRegistryTests(unittest.TestCase):
-    """Unit testing of the CahootsRegistry.registry class"""
+class SereneRegistryTests(unittest.TestCase):
+    """Unit testing of the SereneRegistry.registry class"""
 
     def setUp(self):
         registry.storage = {}

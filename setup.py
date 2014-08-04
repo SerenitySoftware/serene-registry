@@ -1,10 +1,10 @@
 from distutils.core import setup
 
 setup (
-    name = 'CahootsRegistry',
+    name = 'SereneRegistry',
     version = '1.0.0',
-    py_modules = ['CahootsRegistry'],
-    url = 'https://github.com/SerenitySoftwareLLC/cahoots-registry',
+    py_modules = ['SereneRegistry'],
+    url = 'https://github.com/SerenitySoftwareLLC/serene-registry',
     author = 'Ryan Vennell',
     author_email = 'ryan.vennell@gmail.com',
     description = 'A simple, non-persistent, key-value registry in memory.',
