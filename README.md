@@ -3,6 +3,13 @@ SereneRegistry
 
 A simple, non-persistent, key-value registry in memory.
 
+Build Status
+------------
+
+Master: [![Build Status](https://travis-ci.org/SerenitySoftwareLLC/serene-registry.svg?branch=master)](https://travis-ci.org/SerenitySoftwareLLC/serene-registry)
+
+Develop: [![Build Status](https://travis-ci.org/SerenitySoftwareLLC/serene-registry.svg?branch=develop)](https://travis-ci.org/SerenitySoftwareLLC/serene-registry)
+
 Installation
 ------------
 
